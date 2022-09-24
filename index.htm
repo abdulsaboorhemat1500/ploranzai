@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Ploranzai</title>
+</head>
+
+<body class="grey lighten-4">
+    <!-- --------------page header----------------- -->
+    <nav class="nav-wraper grey lighten-2">
+        <div class="container">
+            <a href="#" class="brand-logo black-text">Ploranzai</a>
+            <!----------------sidenav button for mobile-------------------->
+            <a href="#" class="sidenav-trigger" data-target="mobil-link">
+                <i class="material-icons black-text">menu</i>
+            </a>
+
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#" class="btn cstm-btn pink purple accent-4 modal-trigger" data-target="register-model">Register</a>
+                </li>
+                <li><a href="#" class="btn cstm-btn purple accent-4 modal-trigger" data-target="login-model">Login</a></li>
+            </ul>
+            <a href="#"><i class="material-icons hide-on-large-only black-text right modal-trigger" data-target="category-search">search</i></a>
+        </div>
+    </nav>
+    <ul class="sidenav" id="mobil-link">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="3">Contact</a></li>
+        <li><a href="3">Services</a></li>
+        <li><a href="3">Add Product</a></li>
+    </ul>
+    <!-- second navbar for searching and for categories distances -->
+    <nav class="nav-wraper purple accent-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l3">
+                    <div class="input-field">
+                        <form>
+                            <i class="material-icons prefix black-text">search</i>
+                            <input type="text" id="search" class="black-text" placeholder="Search Product" />
+                        </form>
+                    </div>
+                </div>
+                <div class="col l1.5 hide-on-med-and-down">
+                    <div class="input-field" id="options">
+                        <select class="browser-default grey lighten-2">
+                            <option value="" disabled selected>Categories</option>
+                            <option value="1">Mobiles</option>
+                            <option value="2">computers</option>
+                            <option value="">cars 3</option>
+                            <option value="1">Mobiles</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="col l1.5 hide-on-med-and-down">
+                    <div class="input-field" id="options">
+                        <select class="browser-default grey lighten-2">
+                            <option value="" disabled selected>Distance</option>
+                            <option value="1">+1KM</option>
+                            <option value="2">+2 KM<</option>
+                            <option value="">+3 KM<</option>
+                            <option value="1">+4 KM<</option>
+                            <option value="2">+5 KM<</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="col l5 right hide-on-med-and-down">
+                    <ul>
+                        <li class="c"><a href="#"><i class="material-icons left">add_circle</i>Place And adds</a></li>
+                        <li>
+                            <a href="#" class="">profile</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- sidebar and three rows of the main page -->
+    <section class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col l3 grey lighten-3 hide-on-med-and-down">
+                    <ul class="collection with-header">
+                        <li class="collection-header">
+                            <h6>All Categories</h6>
+                        </li>
+                        <li class="collection-item"><a href="#"> Samsung</a></li>
+                        <li class="collection-item"><a href="#"> Furniture</a></li>
+                        <li class="collection-item"><a href="#"> Gym Equipment</a></li>
+                        <li class="collection-item">
+                            <a href="#">Computers</a>
+                        </li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                        <li class="collection-item"><a href="#">Lorem.</a></li>
+                    </ul>
+                </div>
+                <div class="col l9">
+                    <!-- first row of the main content in main page -->
+                    <div class="row grey lighten-3">
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3 ">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/books_759.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Success</span>
+                                        <p class="card-c-content">kdr Province</p>
+                                        <p class="card-c-content">300 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/chairs.webp" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Office Chair</span>
+                                        <p class="card-c-content">Kabul Province</p>
+                                        <p class="card-c-content">2000 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/coat.webp" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Girls Coat</span>
+                                        <p class="card-c-content">kdr Province</p>
+                                        <p class="card-c-content">500 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/cricket.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Afg jersey</span>
+                                        <p class="card-c-content">Kdr Province</p>
+                                        <p class="card-c-content">500 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </a>
+                    <div class="row">
+                        <!-- second row of the main content in main page -->
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/car fra.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Car</span>
+                                        <p class="card-c-content">kdr Province</p>
+                                        <p class="card-c-content">300000 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/headphone.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Headphone</span>
+                                        <p class="card-c-content">Kabul Province</p>
+                                        <p class="card-c-content">1000 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/desk.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Office Desk</span>
+                                        <p class="card-c-content">kdr Province</p>
+                                        <p class="card-c-content">1300 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/women/babyshoe.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Baby Shoe
+                                        </span>
+                                        <p class="card-c-content">Ghazni Province</p>
+                                        <p class="card-c-content">500 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <!-- third row of the main content in main page -->
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/iphone14.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Iphon 14</span>
+                                        <p class="card-c-content">Kandahar</p>
+                                        <p class="card-c-content">30000 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/bycle.webp" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Old bcl</span>
+                                        <p class="card-c-content">Kabul Province</p>
+                                        <p class="card-c-content">1000 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/desk.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Office Desk</span>
+                                        <p class="card-c-content">kdr Province</p>
+                                        <p class="card-c-content">1300 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="#" class="black-text">
+                            <div class="col s6 m3 l3">
+                                <div class="card border-r">
+                                    <div class="card-image">
+                                        <img src="img/FB_IMG_1646106322178.jpg" height="160px" alt="" />
+                                    </div>
+                                    <div class="card-content">
+                                        <span class="card-c-title">Flag</span>
+                                        <p class="card-c-content">Ghazni Province</p>
+                                        <p class="card-c-content">300 AF</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 4th row of the main content in main page -->
+    <section class="container section">
+        <div class="row">
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/cups.jpeg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Nice Cup</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">300 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/computer.jpeg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Computer</span>
+                            <p class="card-c-content">Kabul</p>
+                            <p class="card-c-content">20000 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/headphone.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Headphone</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/sunglasses.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">sunglasses</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </a>
+        <!-- 5th row of the main content in main page -->
+        <div class="row">
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562427480858.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">300 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562459481706.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kabul</p>
+                            <p class="card-c-content">20000 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562459669884.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562459765310.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </a>
+        <!-- 6th row of the main content in main page -->
+        <div class="row">
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/girlsdress.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Nice Dress</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">300 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/heil.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kabul</p>
+                            <p class="card-c-content">200 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/IMG_20190628_053116_818.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/whatch.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Watch</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">5000 AF</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </a>
+        <!-- 7th row of the main content in main page -->
+        <div class="row">
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562459863941.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">300 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562514008127.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kabul</p>
+                            <p class="card-c-content">20000 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562646327615.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1563262349420.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar Province</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </a>
+        <!-- 8th row of the main content in main page -->
+        <div class="row">
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/watch.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Watch</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">300 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562459669884.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kabul</p>
+                            <p class="card-c-content">20000 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562514229816.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="#" class="black-text">
+                <div class="col s6 m3 l3">
+                    <div class="card border-r">
+                        <div class="card-image">
+                            <img src="img/women/FB_IMG_1562459863941.jpg" height="160px" alt="" />
+                        </div>
+                        <div class="card-content">
+                            <span class="card-c-title">Lorem.</span>
+                            <p class="card-c-content">Kandahar</p>
+                            <p class="card-c-content">500 AF</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </a>
+        <!-- modal for login user -->
+        <div class="modal" id="login-model">
+            <div class="modal-content">
+                <H4 class="center">User Information</H4>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s10 offset-s2">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Enter Email</label>
+                            </div>
+                            <div class="input-field col s10 offset-s2">
+                                <i class="material-icons prefix">https</i>
+                                <input id="pass" type="password" class="validate">
+                                <label for="pass">Password</label>
+                            </div>
+                            <a href="#" class="right">Forgat password</a>
+                        </div>
+                        <input type="submit" class="btn purple right" value="Login">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <!-- modal for registering user -->
+        <div class="modal" id="register-model">
+            <div class="modal-content">
+                <H4 class="center">Please Enter Your Information</H4>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="first-name" type="text" class="validate">
+                                <label for="first-name">First Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="last-name" type="text" class="validate">
+                                <label for="last-name">Last Name</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Your Email</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">https</i>
+                                <input id="pass" type="password" class="validate">
+                                <label for="pass">Password</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">https</i>
+                                <input id="c-pass" type="password" class="validate">
+                                <label for="c-pass">Confirm Password</label>
+                            </div>
+                        </div>
+                        <p>
+                            <label>
+                              <input type="checkbox" />
+                              <span>Accept all Term & Conditions</span>
+                            </label>
+                        </p>
+                        <input type="submit" class="btn purple center" value="Create Account">
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <!-- modal for category search -->
+        <div class="modal" id="category-search">
+            <div class="modal-content">
+                <div class="container">
+                    <h4 class="center">Categories</h4>
+                    <div class="row">
+                        <div class="col s3">
+                            <span class="title">papular</span>
+                            <ul>
+                                <li><a href="#">car</a></li>
+                                <li><a href="#">Computers</a></li>
+                                <li><a href="#">Mobiles</a></li>
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">bicycle</a></li>
+                                <li><a href="#">motorcycle</a></li>
+                                <li><a href="#">lorem</a></li>
+                            </ul>
+                        </div>
+                        <div class="col s3">
+                            <span class="title">papular</span>
+                            <ul>
+                                <li><a href="#">car</a></li>
+                                <li><a href="#">Computers</a></li>
+                                <li><a href="#">Mobiles</a></li>
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">bicycle</a></li>
+                                <li><a href="#">motorcycle</a></li>
+                                <li><a href="#">lorem</a></li>
+                            </ul>
+                        </div>
+                        <div class="col s3">
+                            <span class="title">papular</span>
+                            <ul>
+                                <li><a href="#">car</a></li>
+                                <li><a href="#">Computers</a></li>
+                                <li><a href="#">Mobiles</a></li>
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">bicycle</a></li>
+                                <li><a href="#">motorcycle</a></li>
+                                <li><a href="#">lorem</a></li>
+                            </ul>
+                        </div>
+                        <div class="col s3">
+                            <span class="title">papular</span>
+                            <ul>
+                                <li><a href="#">car</a></li>
+                                <li><a href="#">Computers</a></li>
+                                <li><a href="#">Mobiles</a></li>
+                                <li><a href="#">Furniture</a></li>
+                                <li><a href="#">bicycle</a></li>
+                                <li><a href="#">motorcycle</a></li>
+                                <li><a href="#">lorem</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- i don't what to call this part -->
+    <section class="section container">
+        <div class="center ">
+            <a href="#" class="btn-small green lighter-2">prev</a>
+            <a href="#" class="btn-small grey lighten-3 black-text">1</a>
+            <a href="#" class="btn-small grey lighten-3 black-text">2</a>
+            <a href="#" class="btn-small green lighter-2">next</a>
+        </div>
+    </section>
+    <!-- categories bellow the content  -->
+    <section class="section grey lighten-2">
+        <div class="container">
+            <h4 class="center">Categories</h4>
+            <div class="row">
+                <div class="col l3">
+                    <span class="title">papular</span>
+                    <ul>
+                        <li><a href="#">car</a></li>
+                        <li><a href="#">Computers</a></li>
+                        <li><a href="#">Mobiles</a></li>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">bicycle</a></li>
+                        <li><a href="#">motorcycle</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="col l3">
+                    <span class="title">papular</span>
+                    <ul>
+                        <li><a href="#">car</a></li>
+                        <li><a href="#">Computers</a></li>
+                        <li><a href="#">Mobiles</a></li>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">bicycle</a></li>
+                        <li><a href="#">motorcycle</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="col l3">
+                    <span class="title">papular</span>
+                    <ul>
+                        <li><a href="#">car</a></li>
+                        <li><a href="#">Computers</a></li>
+                        <li><a href="#">Mobiles</a></li>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">bicycle</a></li>
+                        <li><a href="#">motorcycle</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+                <div class="col l3">
+                    <span class="title">papular</span>
+                    <ul>
+                        <li><a href="#">car</a></li>
+                        <li><a href="#">Computers</a></li>
+                        <li><a href="#">Mobiles</a></li>
+                        <li><a href="#">Furniture</a></li>
+                        <li><a href="#">bicycle</a></li>
+                        <li><a href="#">motorcycle</a></li>
+                        <li><a href="#">lorem</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About us -->
+    <section class="section grey lighten-1">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 l6">
+                    <h5>About Us....</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo fugit beatae deleniti sit in enim!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo fugit beatae deleniti sit in enim!</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo fugit beatae deleniti sit in enim!</p>
+                </div>
+                <div class="col s12 l5 offset-l1">
+                    <h5>Contact Us....</h5>
+                    <ul>
+                        <li><a href="#" class="purple-text">Facebook</a></li>
+                        <li><a href="#" class="purple-text ">Linked in</a></li>
+                        <li><a href="#" class="purple-text ">Instagram</a></li>
+                        <li><a href="#" class="purple-text ">youtube</a></li>
+                        <li><a href="#" class="purple-text ">Whatsapp</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer part -->
+    <footer class="footer grey">
+        <div class="container center ">
+            <span>&copy; 2022 Saboor Hemat</span>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".sidenav").sidenav();
+            $(".dropdown-trigger").dropdown();
+            $(".modal").modal();
+        });
+        document.addEventListener('DOMContentLoaded', function() {
+            var elems = document.querySelectorAll('select');
+            var instances = M.FormSelect.init(elems, options);
+        });
+        // Or with jQuery
+        $(document).ready(function() {
+            $('select').formSelect();
+        });
+    </script>
+</body>
+
+</html>

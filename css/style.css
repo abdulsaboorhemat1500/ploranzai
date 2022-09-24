@@ -1,0 +1,60 @@
+nav .badge {
+    position: relative;
+    top: 20px;
+    right: 25px;
+}
+
+.category {
+    margin-top: 20px;
+}
+
+.btns {
+    gap: 10px;
+}
+
+nav .input-field input[type="text"]:valid {
+    border-bottom: 2px solid black;
+}
+
+#options {
+    padding-top: 14px;
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+select {
+    border: none;
+    border-radius: 10px;
+    height: 2.6rem;
+}
+
+.cstm-btn {
+    border-radius: 10px;
+}
+
+.card-c-title {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card-c-content {
+    font-size: 13.5px;
+}
+
+.card .card-content {
+    padding: 10px;
+    border-radius: 0 0 2px 2px;
+}
+
+.row .col.l4 {
+    border-radius: 5px;
+    margin-left: 3px;
+}
+
+.border-r {
+    border-radius: 10px;
+}
+
+.card .card-image img {
+    border-radius: 10px 10px 0 0;
+}
